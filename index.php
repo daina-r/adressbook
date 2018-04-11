@@ -1,12 +1,12 @@
 <?php
 $json = file_get_contents(__DIR__ . '/adressbook.json');
 $data = json_decode($json, true);
-
 ?>
 
 <html>
 <head>
 	<title>Адресная книга</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
 	
